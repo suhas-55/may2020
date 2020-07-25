@@ -16,7 +16,7 @@ RUN yum -y install java
 
 RUN java -version
 
-ADD data/devops-1.war /opt/tomcat/webapps
+ADD devops-1.war /opt/tomcat/webapps
 
 EXPOSE 8080
 
